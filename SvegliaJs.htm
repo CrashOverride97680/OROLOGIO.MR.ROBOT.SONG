@@ -1,52 +1,68 @@
-<HTML>
-</HTML>
-<HEAD>
-</HEAD>
-<BODY>
-<div clss="container">
-<label id="a"></label>
-<embed
-    src="song/1.mp3"
-    name="musica"
-    autostart="true"
-    loop="0"
-    hidden="true">
-</embed>
-</div>
-<style>
-body{
-	font-family: "mrRobot";
-	background: url("img/background/Mr.Robot.jpg") center center fixed;
-	background-size:cover;
-	filter: drop-shadow(10px 10px 20px black);
-}
-@font-face {
-    font-family: mrRobot;
-    src: url(font/MR ROBOT.ttf);
-}
-#a{
-    position: absolute;
-    top: 60%;
-    left: 21%;
-	color:red;
-}
-	</style>
-<script type="text/javascript">
 <!--
-var a=document.getElementById("a");
-function data(){
-  var data = new Date();
-  var Hh, Mm, Ss, mm;
-  Hh = data.getHours() + ":";
-  Mm = data.getMinutes() + ":";
-  Ss = data.getSeconds();
-  a.innerHTML = ("<h1><center style='font-size:200;'>"+ Hh + Mm + Ss +"</center></h1>");
-}
-function Interval(){
-setInterval("data()",1000);
-}
-Interval();
-//-->
-</script>
-</BODY>
-</HTML>
+ ________________________________________________________________________________
+|										  |		
+|										  |
+|										  |
+|										  |
+|				CREATO DA MANNA FABRIZIO			  |
+|	  QUESTO OROLOGIO E STATO CREATO DA UN FAN PER I FAN DI MR.ROBOT	  |
+|				GRAZIE PER IL DOWNLOAD				  |
+|			LINGUAGGI UTILIZZATI HTML,CSS E JAVASCRIPT		  |
+|										  |
+|										  |
+|										  |
+ _________________________________________________________________________________
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OROLOGIO MR.ROBOT CON SONG</title>
+		<meta charset="UTF-8">		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+		<body>
+			<div clss="container">
+				<label id="a"></label>
+					<embed
+    						src="song/1.mp3"
+    						name="musica"
+    						autostart="true"
+    						loop="0"
+    						hidden="true">
+					</embed>
+			</div>
+				<style>
+					body{
+						font-family: "mrRobot";
+						background: url("img/background/Mr.Robot.jpg") center center fixed;
+						background-size:cover;
+						filter: drop-shadow(10px 10px 20px black);
+					}
+					@font-face {
+    						font-family: mrRobot;
+   						src: url(font/MR ROBOT.ttf);
+					}
+					#a{
+    						position: absolute;
+    						top: 60%;
+    						left: 21%;
+						color:red;
+					}
+				</style>
+					<script type="text/javascript">
+						var a=document.getElementById("a");
+							function data(){
+  								var data = new Date();
+  								var Hh, Mm, Ss, mm;
+  								Hh = data.getHours() + ":";
+  								Mm = data.getMinutes() + ":";
+  								Ss = data.getSeconds();
+  								a.innerHTML = ("<h1><center style='font-size:200;'>"+ Hh + Mm + Ss +"</center></h1>");
+							}
+							function Interval(){
+								setInterval("data()",1000);
+							}
+						Interval();
+					</script>
+		</body>
+</html>
