@@ -7,7 +7,10 @@
 
 # CREATO DA UN FAN PER I FAN
 
-Come l'inguaggi ho utilizzato html,css,javascript
+* Come l'inguaggi ho utilizzato 
+  * html v.5
+  * css3
+  * javascript
 
 # FUNZIONAMENTO
 
